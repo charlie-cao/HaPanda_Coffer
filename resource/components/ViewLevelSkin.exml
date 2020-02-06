@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="components.MainUISkin" width="1080" height="1920" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Scroller width="752" height="685" x="0" y="0">
+		<e:Group>
+			<e:Image source="index_jpg" x="0" y="0"/>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

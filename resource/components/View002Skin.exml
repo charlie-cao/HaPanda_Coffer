@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="components.MainUISkin" width="1080" height="1920" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image y="10" id="bg_01_png" source="bg_01_png" x="10"/>
+	<e:Image right="31" id="bar_right" bottom="30" source="bar_01_png" x="10" y="10"/>
+	<e:Image x="40" id="bar_left" source="bar_01_png" bottom="30" y="10"/>
+	<e:Image id="panda_png" y="1414" horizontalCenter="0" source="panda_png" x="10"/>
+	<e:Image id="c_01_png" y="1302" horizontalCenter="0" source="c_01_png" x="10"/>
+	<e:Image y="1544" id="face_01_png" x="412" source="face_01_png"/>
+	<e:Image y="277" source="life_png" x="343" id="life_png" width="235" height="111"/>
+	<e:Button label="按钮" x="48" y="1550" width="196" height="300" enabled="false"/>
+	<e:Button y="1550" enabled="false" x="848" label="按钮" width="196" height="300"/>
+	<e:Image id="panda_qipao_png" y="775" horizontalCenter="0" source="panda_qipao_png" x="10"/>
+	<e:Image y="865" source="em_01_png" id="em_01_png" width="280" horizontalCenter="10" height="280" x="10"/>
+	<e:Component x="70" id="row_left" top="0" width="150" height="1920" y="10"/>
+	<e:Button left="0" id="bt_left" bottom="100" x="10" y="10">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="bt_left_01_png" source.down="bt_left_02_png"/>
+				<e:Label id="labelDisplay0" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Component right="60" id="row_right" y="10" width="150" height="1920" x="10"/>
+	<e:Button right="0" y="20" id="bt_right" bottom="100" x="10">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="bt_right_01_png" source.down="bt_right_02_png"/>
+				<e:Label id="labelDisplay1" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image y="10" id="title_01_png" source="title_01_png" x="10"/>
+	<e:BitmapLabel id="score" y="512" text="0" font="zz_fnt" horizontalCenter="0.5" x="10"/>
+	<e:BitmapLabel y="289" id="lifes" font="zz_fnt" text="3" x="639"/>
+	<e:Image y="-1990" id="view_help_png" source="view_help_png" x="10"/>
+	<e:Image id="level_up" source="level_up_png" y="688" horizontalCenter="0.5"/>
+</e:Skin>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="components.MainUISkin" width="1080" height="1920" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="index_jpg"/>
+	<e:Button label="+" x="208" y="45" width="42" height="43"/>
+	<e:Button x="455" label="+" y="44" width="42" height="43"/>
+	<e:Button height="43" y="46" label="+" width="42" x="670"/>
+	<e:Button x="631" label="+" y="147" width="42" height="43"/>
+	<e:Button height="43" y="146" label="购" width="42" x="549"/>
+	<e:ViewStack width="666" height="613" x="27" y="303">
+		<e:Group width="100%" name="视图" height="100%">
+			<e:Scroller width="657" height="493" x="0" y="0">
+				<e:Group/>
+			</e:Scroller>
+		</e:Group>
+	</e:ViewStack>
+	<e:Button label="节拍模式" x="44" y="998" width="273" height="74"/>
+	<e:Button x="392" label="急速模式" y="993" width="273" height="74"/>
+	<e:Button height="74" y="1120" label="最新活动" width="92" x="210"/>
+	<e:Button x="340" label="商城" y="1120" width="92" height="74"/>
+	<e:Button height="74" y="1120" label="对战" width="92" x="467"/>
+	<e:Button x="584" label="熊猫世界" y="1120" width="92" height="74"/>
+	<e:Button height="74" y="1120" label="更多" width="92" x="29"/>
+</e:Skin>

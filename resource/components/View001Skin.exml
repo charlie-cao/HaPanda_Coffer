@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="components.View001" width="1080" height="1920" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bt_start" source="bt_start_png" y="898" horizontalCenter="-1"/>
+	<e:Image id="bt_help" source="bt_help_png" y="1166" horizontalCenter="-1"/>
+	<e:Image id="em_index_png" y="325" horizontalCenter="0" source="em_index_png"/>
+	<e:Image id="view_help_png" x="0" y="-2000" source="view_help_png"/>
+</e:Skin>

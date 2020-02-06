@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="components.MainUISkin" width="1080" height="1920" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="bg_01_png" x="0" y="0"/>
+	<e:Component id="bilibili" x="0" y="0" width="770" height="614"/>
+	<e:Image y="1081" id="bt_rank" source="bt_rank_png" horizontalCenter="0" x="10"/>
+	<e:Image id="bt_restart" y="685" horizontalCenter="0" source="bt_restart_png" x="10"/>
+	<e:Image id="bt_share" y="891" horizontalCenter="0" source="bt_share_png" x="10"/>
+	<e:Image id="gameover" horizontalCenter="0" y="462" width="638" source="gameover_png" height="142" x="10"/>
+	<e:Image id="panda_png" y="1414" horizontalCenter="0" source="panda_png" x="10"/>
+	<e:Image source="face_05_png" x="412" y="1322"/>
+</e:Skin>
